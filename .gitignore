@@ -1,0 +1,12 @@
+# Выходные файлы Nuxt
+.output/
+.nuxt/
+
+# Зависимости Node
+node_modules/
+
+# IDE
+.idea/
+
+# Переменные окружения
+.env

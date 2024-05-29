@@ -1,0 +1,5 @@
+# Выходные файлы Nuxt
+.output/
+
+# Зависимости Node
+node_modules/
