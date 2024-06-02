@@ -55,7 +55,7 @@
 - [TypeScript](https://www.typescriptlang.org/)
 - [Nuxt](https://nuxt.com/)
 - [Pinia](https://pinia.vuejs.org/)
-- [UnoCSS](https://unocss.dev/)
+- [TailwindCSS](https://tailwindcss.com/)
 
 ## Лицензия
 

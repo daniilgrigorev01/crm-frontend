@@ -1,6 +1,6 @@
 export default defineNuxtConfig({
   devtools: { enabled: true },
-  modules: ['@nuxt/eslint'],
+  modules: ['@nuxt/eslint', '@nuxtjs/tailwindcss'],
   app: {
     head: {
       title: 'CRM-system',
