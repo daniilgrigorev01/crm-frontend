@@ -1,6 +1,6 @@
 export default defineNuxtConfig({
   devtools: { enabled: true },
-  modules: ['@nuxt/eslint', '@nuxtjs/tailwindcss'],
+  modules: ['@nuxt/eslint', '@nuxtjs/tailwindcss', '@nuxt/fonts'],
   app: {
     head: {
       title: 'CRM-system',
@@ -58,6 +58,16 @@ export default defineNuxtConfig({
           content: '#fff',
         },
       ],
+      htmlAttrs: {
+        lang: 'ru',
+      },
+    },
+  },
+  fonts: {
+    defaults: {
+      weights: [400, 600, 700],
+      styles: ['normal'],
+      subsets: ['cyrillic', 'latin'],
     },
   },
 });

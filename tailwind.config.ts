@@ -18,6 +18,9 @@ export default {
       focus: '#b89eff',
       active: '#8052ff',
     },
+    fontFamily: {
+      sans: ['Open Sans', 'Arial', 'sans-serif'],
+    },
   },
 
   plugins: [tailwindcssPluginForms],
