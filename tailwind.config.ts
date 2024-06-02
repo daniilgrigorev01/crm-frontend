@@ -1,3 +1,4 @@
+import tailwindcssPluginForms from '@tailwindcss/forms';
 import type { Config } from 'tailwindcss';
 
 export default {
@@ -18,6 +19,6 @@ export default {
       active: '#8052ff',
     },
   },
-  // eslint-disable-next-line unicorn/prefer-module
-  plugins: [require('@tailwindcss/forms')],
+
+  plugins: [tailwindcssPluginForms],
 } satisfies Config;
